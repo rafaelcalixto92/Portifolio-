@@ -3,10 +3,10 @@
 
 # Índice 
 
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Badges](#badges)
-* [Índice](#índice)
-* [Descrição do Projeto](#descrição-do-projeto)
+* [Home](#Home)
+* [Sobre](#Sobre)
+* [Conhecimentos](#Conhecimentos)
+* [SERVIÇOS](#SERVIÇOS)
 * [Status do Projeto](#status-do-Projeto)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
