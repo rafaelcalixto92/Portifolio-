@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio | Rafael</title>
+    <link rel="stylesheet" href="css/menu lateral.css">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Poppins:wght@300 & display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <input type="checkbox" id="check" checked > 
+    <!--Começo cabeçalho-->
+    <header>
+        <label for="check">
+            <ion-icon name="menu-outline" id="sidebar_btn" ></ion-icon>
+        </label>
+
+
+        <div class="left">
+            <h3>Calixto's <span>Portifolio</span></h3>
+        </div>
+       
+    </header>
+    <!--Final-->
+    <div class="sidebar">
+        <center>
+            <img src="imag/rosto.jpg" class="image" alt="">
+            <h2>Rafael Calixto</h2>
+        </center>
+        <a href="#home">
+            <ion-icon name="home-outline"></ion-icon><span>Home</span>
+        </a>
+        <a href="#sobre">
+            <ion-icon name="finger-print-outline"></ion-icon><span>Sobre</span></a>
+        <a href="#portifolio">
+            <ion-icon name="color-wand-outline"></ion-icon><span>Conhecimentos</span></a>
+        <a href="#serviços">
+            <ion-icon name="construct-outline"></ion-icon><span>Serviços</span></a>
+        <a href="#contato">
+            <ion-icon name="text-outline"></ion-icon><span>Contato</span> </a>
+    </div>
+
+
+
+
+
+    <!--Corpo inicio-->
+    <section id="home">
+        <!--Começo-->
+        <div class="main">
+            <h1 class="headings">I AM <BR>RAFAEL CALIXTO</BR></h1>
+            <a href="#contato">
+                <button class="btn">
+                    Contrate me
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <section id="sobre" >
+        <!--Sobre-->
+        <h1 class="headings"> Sobre Mim</h1>
+        <div id="pic">
+            <img src="imag/carro sol.jpg" alt="" >
+            <div id="intro">
+                <h2>Rafael Calixto</h2>
+                <br>
+                <p>
+                    Meu nome é Rafael Calixto, tenho 24 anos, sou estudante no curso <br>de  desenvolvimento de sistemas, sou apaixonado pela tecnologia <br>pois podemos criar coisas que se limitam apenas a nossa imaginação. <br>Tenho o objetivo de atuar na área de programação com o intuito de <br>aplicar meus conhecimentos técnicos. Possuo conhecimento em <br>Java script, CSS, HTML e SQL.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portifolio">
+        <!--Conhecimentos-->
+        <h1 class="headings"> PORTIFÓLIO
+            <h2>Conhecimentos:</h2>
+            <br>
+            <br>
+            <br>
+            <div class="gallery">
+                <img src="imag/html.png" alt="">
+                <img src="imag/css.png" alt="" style="width:200px ;">
+                <img src="imag/js.png" alt="">
+                <img src="imag/sql.png" alt="">
+
+            </div>
+        </h1>
+    </section>
+
+    <section id="serviços">
+        <!--Serviços oferecidos-->
+        <h1 class="headings">SERVIÇOS</h1>
+        <div class="row">
+            <div class="box">
+                <img src="imag/web.png" alt="">
+                <h1 class="headigns">Web Design</h1>
+                <p> 
+                    Planejamento e organização de conteúdo para página web online e compartilhada com o mundo.
+                    Estruturação visual de portifolios, lojas virtuais, blogs etc...
+                </p>
+            </div>
+            <div class="box">
+                <img src="imag/fuull.png" alt="">
+                <h1 class="headigns">FullStack</h1>
+                <p>Atuo tanto em projetos de Front-End (projetos de desenvolvimento de interfaces gráficas que são exibidas para os usuários), quanto em projetos de Back-End (projetos que estão por trás da interface).</p>
+            </div>
+            <div class="box">
+                <img src="imag/3653527-freelancer-icon-line-sets-vetor.jpg" alt="">
+                <h1 class="headigns">Freelancer</h1>
+                <p> Atuo tambem com a modalidade 'Freelancer' ou seja, sem vínculo empregatício formal com empresas no regime CLT.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato">
+        <!--Espaço para deixar mensagem/contratar -->
+        <h1 class="headings">CONTATO</h1>
+        <form action="" class="form">
+            <input type="text" name="nome" class="input" placeholder="Digite Seu Nome" required>
+            <input type="email" name="email" class="input" placeholder="Digite Seu Email" required>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Digite Sua Mensagem" required></textarea>
+            <input type="submit" value="Enviar" id="send">
+        </form>
+    </section>
+
+    <div class="content"></div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script>
+    <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"> </script>
+</body>
+<a id="link-topo" href="#home">&#9651;</a>
+<footer>
+    <!--Rodapé-->
+    <div class="footer-content">
+        <h3 style="color: black; font-weight: bold; font-style: italic;">Minhas redes sociais...</h3>
+        <ul class="socials">
+            <li><a href="https://www.instagram.com/rafaelcalixto__/"> <i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/rafael-calixto-0265b2241/"> <i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5531994461201"><i class="fa fa-whatsapp"></i></a></li>
+
+        </ul>
+        <h6 style="color: black;">Este é um site demonstrativo, com o intuito de evidenciar as habilidades adquiridas
+            pelo desenvolvedor do
+            sistema.</h6>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        <p>
+            Copyrigth © 2022 – 2022. Designed by <span>Rafael Calixto</span></p>
+
+    </div>
+
+</footer>
+
+</html>
