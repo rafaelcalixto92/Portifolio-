@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+   /*scroll-behavior: smooth;*/ 
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 15, 12, 0.5);
+    height: 899px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: o;
+    background: url(../imag/foto\ natureza.jpg) no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+
+}
+
+.headings {
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.btn {
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+
+    margin-bottom: 50px;
+    color: rgb(51, 49, 42)
+    
+    
+
+}
+
+#pic {
+    display: flex;
+    padding-left: 90px;
+}
+
+#pic img {
+    width: 475px;
+    height: 475px;
+    
+    border-radius: 60%;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+#intro H2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#intro p{
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+#portifolio {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(51, 49, 42);
+    color: white;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    border-bottom: solid ;
+
+}
+
+.gallery img {
+    width: 260px;
+    height: 240px;
+    margin: 10px;
+    
+}
+
+#serviços {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color:  rgb(51, 49, 42);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(87, 85, 77) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+
+}
+
+.box p{
+    padding: 10%;
+}
+
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px  rgb(251, 255, 2) ;
+}
+.box img{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(51, 49, 42);
+    color: white;
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+
+}
+
+#send{
+    padding: 10px;
+    width: 10%;
+    margin: 40px;
+    border: none ;
+    outline: none;
+}
+
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+} 
+
+
+
+footer{
+    background:  rgb(255, 255, 254);
+    height: auto;
+    width: 100vw;
+    font-family: roboto;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px ;
+}
+.socials a{
+    text-decoration: none;
+    color:  rgb(17, 12, 12);
+}
+.socials a i{             /* google   <li><a href="#"> <i class="fa fa-google-plus   "></i></a></li>*/
+    font-size: 1.8rem;
+     transition: color .4s ease; 
+}
+.socials a:hover{
+    color: rgb(161, 0, 0);
+}
+
+
+
+
+.footer-bottom {
+   
+    background: linear-gradient(135deg,  rgb(238, 207, 82),rgb(51, 49, 42));
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center; 
+    
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform:capitalize;
+    
+    }
+
+    .footer-bottom span{
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200 ;
+    }
+
+    #link-topo{
+        text-decoration: none;
+        color: #fff;
+        background-color:rgba(22, 59, 46, 0.788) ;
+        padding: 10px;
+        position:  fixed;
+        right: 10px;
+        bottom: 10px;
+        box-shadow: 1PX 1px 10px rgb(48, 49, 36);
+        border-radius: 12px;
+    
+    }
+
+
+    /*<div class="navigation">
+        <ul>
+            <li class="list">
+                <a href="#home">
+                    <span class="icon"></span>
+                    <span class="list">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="list"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="list"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"></span>
+                    <span class="list"></span>
+                </a>
+            </li>
+
+        </ul>
+    </div>*/
